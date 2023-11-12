@@ -10,7 +10,8 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "test": "ts-jest"
+    "test": "ts-jest",
+    "build": "npx tsc"
   },
   "dependencies": {
     "@types/express": "^4.17.21",
